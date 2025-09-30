@@ -1,9 +1,4 @@
-# Course:      CS261 - Data Structures
-# Assignment:  6
-# Description: Provided data structures necessary to complete the assignment.
-#              Please look through this file carefully to see what methods
-#              are available and how they're implemented.
-#              Don't modify the contents of this file.
+# Description: Basic data structures necessary for the project.
 
 
 # -------------- Used by both HashMaps (SC & OA)  -------------- #
@@ -221,3 +216,4 @@ class HashEntry:
     def __str__(self) -> str:
         """Override string method to provide more readable output."""
         return f"K: {self.key} V: {self.value} TS: {self.is_tombstone}"
+
