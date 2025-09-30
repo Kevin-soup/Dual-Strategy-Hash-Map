@@ -1,14 +1,12 @@
 # Name: Kevin Lin
-# OSU Email: link2@oregonstate.edu
-# Course: CS261 - Data Structures
-# Assignment: 6
-# Due Date: 6/5/2025
+#
+# Last Edit Date: 6/5/2025
 # Description: Implementation of an optimized HashMap using linked list chaining. The hash table is stored in
 #              a dynamic array and collisions are resolved using a singly linked list. The average case
 #              performance of user end operations are maintained at an O(1) time complexity.
 
 
-from a6_include import (DynamicArray, LinkedList,
+from base_include import (DynamicArray, LinkedList,
                         hash_function_1, hash_function_2)
 
 class HashMap:
@@ -533,3 +531,4 @@ if __name__ == "__main__":
         da = DynamicArray(case)
         mode, frequency = find_mode(da)
         print(f"Input: {da}\nMode : {mode}, Frequency: {frequency}\n")
+
