@@ -1,8 +1,6 @@
 # Name: Kevin Lin
-# OSU Email: link2@oregonstate.edu
-# Course: CS261 - Data Structures
-# Assignment: 6
-# Due Date: 6/5/2025
+#
+# Last Edit Date: 6/5/2025
 # Description: Implementation of an optimized HashMap using open addressing. Hash table collision is resolved
 #              using open addressing with quadratic probing. The average case performance of user end operations
 #              are maintained at an O(1) time complexity. An iterator implementation was also included.
@@ -550,4 +548,5 @@ if __name__ == "__main__":
     print(m)
     for item in m:
         print('K:', item.key, 'V:', item.value)
+
 
