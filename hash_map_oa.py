@@ -8,7 +8,7 @@
 #              are maintained at an O(1) time complexity. An iterator implementation was also included.
 
 
-from a6_include import (DynamicArray, DynamicArrayException, HashEntry,
+from base_include import (DynamicArray, DynamicArrayException, HashEntry,
                         hash_function_1, hash_function_2)
 
 class HashMap:
@@ -550,3 +550,4 @@ if __name__ == "__main__":
     print(m)
     for item in m:
         print('K:', item.key, 'V:', item.value)
+
